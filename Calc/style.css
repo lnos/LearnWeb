@@ -1,0 +1,40 @@
+
+*{
+	/* Better text styling */
+	font: bold 30px Arial;
+}
+
+.calc{
+    width: 368px;
+    height: 468px;
+    margin: 70px auto;
+
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: floralwhite;
+}
+
+.screen{
+    height: 100px;
+    text-align: right;
+}
+
+.keys span{
+    background-color: orange;
+    float: left;
+    width: 90px;
+    height: 90px;  
+    
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    line-height: 90px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.keys span:hover{
+    background-color: darkorange;
+}
